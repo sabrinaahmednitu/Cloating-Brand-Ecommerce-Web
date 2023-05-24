@@ -79,7 +79,7 @@ p{
     background: #070707;
 }
 .header{
-    background: radial-gradient(#fff ,#f5b0d2) ;
+    background: radial-gradient(#fff ,#fddee6) ;
 }
 
 .header .row{
@@ -115,8 +115,60 @@ width: 100%;
    padding: 10px;
    min-width: 200px;
    margin-bottom: 50px;
+   transition: 0.5s;
 }
 
 .col-4 img{
     width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: rgb(61, 59, 59);
+}
+
+.title::after{
+    content: "";
+    background-color: #ff3b86;
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50px);
+}
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p{
+    font-size: 14px;
+}
+
+.ratings .fa{
+    color: rgb(255, 0, 76);
+}
+.col-4:hover{
+transform: translateY(-5px);
+}
+
+
+/* _________ offer_______ */
+.offer{
+background: radial-gradient(#fff ,#fddee6) ;
+margin-top: 80px;
+padding: 30px 0;
+}
+
+.col-2 .offer-img{
+    padding: 80px;
+}
+
+.small{
+    color: #555;
 }
