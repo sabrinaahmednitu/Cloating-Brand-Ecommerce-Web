@@ -437,3 +437,45 @@ input:focus{
       line-height: 32px;
   }
 }
+
+/*________________ Cart Page________________ */
+.cart-page{
+    margin: 80px auto;
+}
+
+table{
+    width: 100%;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background-color: rgb(245, 28, 93) ;
+    font-weight: normal;
+}
+
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: rgb(245, 28, 93);
+    font-size: 12px;
+}
+
+td img{
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
