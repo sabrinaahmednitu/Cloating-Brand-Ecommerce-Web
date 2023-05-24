@@ -15,6 +15,18 @@ body{
     padding-right: 25px;
 
 }
+.row{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.small-container{
+    max-width: 1380px;
+    margin: auto;
+     padding-left: 25px;
+    padding-right: 25px;
+}
 /* _________ navbar_________ */
 .navbar{
     display: flex;
@@ -46,12 +58,7 @@ p{
 
 /* _________ banner_________ */
 
-.row{
-    display: flex;
-   align-items: center;
-   justify-content: space-around;
-   flex-wrap: wrap;
-}
+
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
@@ -102,12 +109,7 @@ margin-top: 70px;
 width: 100%;
 }
 
-.small-container{
-    max-width: 1380px;
-    margin: auto;
-     padding-left: 25px;
-    padding-right: 25px;
-}
+
 
 /* _________ featured_______ */
 .col-4{
@@ -171,4 +173,119 @@ padding: 30px 0;
 
 .small{
     color: #555;
+}
+
+/* _________ testimonial_______ */
+.testimonial{
+    margin-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    border:1px solid rgb(247, 202, 215);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    padding: 40px 20px;
+    cursor: pointer;
+    transition:0.5s;
+}
+.testimonial .col-3 img{
+     width: 80px;
+     border-radius: 50%;
+     margin-top: 20px;
+}
+
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+
+.fa.fa-quote-left{
+      font-size: 34px;
+     color: rgb(255, 0, 76);
+}
+.col-3 p{
+   font-size: 14px;
+   margin: 12px 0;
+   color: #777;
+}
+
+.testimonial .col-3 h3{
+    font-size: 16px;
+    color: #555;
+    font-weight: 600;
+}
+
+/* _________ brands _______ */
+
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    width:160px ;
+}
+.col-5 img{
+    width:100% ;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+     filter: grayscale(0);
+}
+
+/* _________ footer _______ */
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px ;
+}
+.footer p{
+ color: #8a8a8a;
+}
+.footer h3{
+ color:white;
+ margin-bottom: 20px;
+
+}
+.footer-col-1 ,
+.footer-col-2 ,
+.footer-col-3 ,
+.footer-col-4{
+min-width: 250px;
+margin-bottom: 20px;
+} 
+.footer-col-1 {
+    flex-basis: 30%;
+}
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3 ,.footer-col-4{
+     flex-basis: 20%;
+     text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: rgb(245, 28, 93);
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+   text-align: center;
 }
