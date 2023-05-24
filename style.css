@@ -420,3 +420,20 @@ input:focus{
     flex-basis: 24%;
     cursor: pointer;
 }
+
+.row-2{
+    margin: 40px 0;
+    justify-content: space-between;
+}
+@media only screen and (max-width:600px){
+  .single-product .row{
+      text-align: left;
+  }
+  .single-product .col-2{
+     padding: 20px 0;
+  }
+  .single-product h1{
+      font-size: 26px;
+      line-height: 32px;
+  }
+}
