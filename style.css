@@ -471,11 +471,35 @@ td input{
 }
 td a{
     color: rgb(245, 28, 93);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 td img{
     height: 80px;
     width: 80px;
     margin-right: 10px;
+}
+
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+   border-top: 3px solid rgb(245, 28, 93);
+   width: 100%;
+   max-width: 400px;
+}
+
+th:last-child{
+    text-align: right;
+}
+td:last-child{
+    text-align: right;
+}
+
+@media only screen and (max-width:600px){
+    .cart-info p{
+        font-size: 12px;
+    }
 }
